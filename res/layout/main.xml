@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:background="#ffffff"
+	>
+
+	<com.google.ads.AdView
+	    android:id="@+id/adView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		ads:adUnitId="k02b6c00e2b8459d7df88d3d9f64ef90"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true" />
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="#000000"
+	    android:id="@+id/blogTitle">
+	</TextView>
+
+	<ListView
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:id="@+id/rssList"
+	    android:layout_weight="8"
+	/>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="horizontal">
+    	<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="検索" android:id="@+id/findButton" android:layout_weight="4" ></Button>
+		<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="登録キーワード一覧" android:id="@+id/listButton" android:layout_weight="4"></Button>
+	</LinearLayout>
+
+</LinearLayout>

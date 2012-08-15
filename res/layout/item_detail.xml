@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	android:orientation="vertical"
+ 	android:background="#ffffff"
+ 	>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarSize="100dip"
+    android:scrollbarStyle="insideInset"
+    >
+<LinearLayout
+   	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+ 	android:layout_height="fill_parent"
+ 	android:orientation="vertical"
+ 	android:background="#ffffff"
+ 	>
+
+ <TextView
+ android:text="TextView"
+ android:id="@+id/title01"
+ android:textColor="#000000"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:textStyle = "bold|italic"
+ android:textSize="18sp"
+ >
+ </TextView>
+
+ <TextView
+ android:text="TextView"
+ android:id="@+id/textView1"
+ android:textColor="#000000"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content">
+ </TextView>
+
+ <Button
+ android:text="続きを読む"
+ android:id="@+id/LinkButton01"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content">
+ </Button>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

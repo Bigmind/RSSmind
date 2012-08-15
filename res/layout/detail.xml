@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical"
+  android:background="@drawable/text_color"
+  >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTitle"
+        android:text="detailTitle"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detailDay"
+        android:id="@+id/detailDay"
+        android:textColor="#990000"
+        android:textSize="10sp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detailDesc"
+        android:id="@+id/detailDesc">
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="一覧へ戻る"
+        android:id="@+id/backButton"
+    ></Button>
+</LinearLayout>
